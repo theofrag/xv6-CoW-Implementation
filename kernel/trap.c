@@ -108,7 +108,6 @@ usertrap(void){
     }
 
     // uint flags = PTE_FLAGS(0x3ff);
-    //TODO ftiaxe to write
     uint flags = PTE_FLAGS(*pte);
 
     // take pa from pte
